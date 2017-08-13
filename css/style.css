@@ -122,3 +122,32 @@ footer p {
 	margin: 0;
 	padding: 0;
 }
+
+@media(max-width: 768px) {
+	header .container .logo, header .container nav {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	header .container nav ul, header .container nav ul li {
+		float: none;
+		padding: 0;
+	}
+	
+	header .container nav ul li {
+		margin-bottom: 15px;
+	}
+	
+	section .container ul#gallery li {
+		width: 48%;
+		margin-right: 8px;
+	}
+}
+
+@media(max-width: 568px) {
+	section .container ul#gallery li {
+		width: 100%;
+		margin-right: 0;
+	}
+}

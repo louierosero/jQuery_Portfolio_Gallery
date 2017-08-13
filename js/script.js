@@ -52,7 +52,7 @@ $(document).ready(function() {
 		overlay.html('<h3>'+title+'</h3><p>'+desc+'</p>');
 		
 		// Fade in Overlay
-		overlay.fadeIn(800);
+		overlay.fadeIn();
 	});
 	
 	// Mouse Leave Overlay
@@ -64,6 +64,6 @@ $(document).ready(function() {
 		var overlay = $(this).children('.overlay');
 		
 		// Fade Out Overlay
-		overlay.fadeOut(500);
+		overlay.fadeOut();
 	});
 });
